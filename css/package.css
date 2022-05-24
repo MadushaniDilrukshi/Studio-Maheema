@@ -1,0 +1,92 @@
+<style>
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.myDiv {
+  border: 5px outset #003166;
+  background-color: #d9d9d9;    
+  text-align: center;
+  height:450px;
+  width:300px;
+  margin-left:500px;
+}
+.myDiv1 {
+  border: 5px outset #003166;
+  background-color: #d9d9d9;    
+  text-align: center;
+  height:450px;
+  width:300px;
+  margin-top: 40px;
+}
+.myDiv3 {
+  border: 5px outset #003166;
+  background-color: #ff99c2;    
+  text-align: center;
+  height:75px;
+  width:180px;
+  margin-top:25px;
+  margin-left:50px;
+  margin-bottom:20px;
+  
+}
+.myDiv5{
+  border: 5px outset #003166;
+  background-color: #d9d9d9;    
+  text-align: center;
+  height:600px;
+  width:380px;
+  margin-left:465px;
+}
+h1{
+text-align:center;
+font-size:38;
+color:white;
+}
+h2{
+  background-color:grey;
+  color: white;
+  font-size:36;
+}
+h3{
+  background-color:#ff66a3;
+  color: white;
+  font-size:20;
+  margin-top:0px;
+}
+
+
+body {
+  background-color:grey;
+ 
+}
+p{
+ font-size:20;
+ text-align:left;
+ margin-left:30px;
+}
+h4{
+ font-size:28;
+ margin-left:20px;
+ margin-bottom:20px;
+  margin-top:4px;
+ 
+}
+</style>

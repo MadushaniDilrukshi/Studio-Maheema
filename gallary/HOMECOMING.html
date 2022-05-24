@@ -1,0 +1,100 @@
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  background-color:#F06292;
+  text-align: center;
+  padding: 12px;
+  color:#D81B60;
+  font-size:32;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+
+<body>
+<!-- Header -->
+<div class="header">
+  <h1>HOMECOMING DAY PHOTOGRAPHS</h1>
+  
+</div>
+<div class="row">
+  <div class="column">
+    <img src="images/WED (50).jpg">
+    <img src="images/WED (51).jpg">
+    <img src="images/WED (8).jpg">
+    <img src="images/WED (53).jpg">
+    
+    
+  </div>
+  <div class="column">
+    <img src="images/WED (52).jpg">
+    <img src="images/WED (9).jpg">
+    <img src="images/WED (10).jpg"">
+    <img src="images/WED (11).jpg">
+   
+   
+  </div>
+  <div class="column">
+    <img src="images/WED (26).jpg">
+    <img src="images/WED (15).jpg">
+    <img src="images/WED (16).jpg">
+    <img src="images/WED (19).jpg">
+    
+  </div>
+  <div class="column">
+    <img src="images/WED (21).jpg">
+    <img src="images/WED (22).jpg">
+    <img src="images/WED (23).jpg">
+    <img src="images/WED (24).jpg">
+    
+  </div>
+</div>
+</body>
+</html>
